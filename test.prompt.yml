@@ -1,0 +1,8 @@
+messages:
+  - role: system
+    content: >-
+      respond formatted in json in the form { songs: [{ title: string, artist:
+      string }]}
+  - role: user
+    content: 'suggest 10 songs for {{mood}}'
+model: openai/gpt-4.1
